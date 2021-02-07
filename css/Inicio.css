@@ -9,9 +9,9 @@ body{
 }
 
 header{
-    position: absolute;
+
     width: 100%;
-    height: 600px;
+    height: 656px;
     background-image: url(../Img/header.jpg);
     background-position: center;
     background-size: cover;
@@ -20,23 +20,58 @@ header{
 
 .Menu{
     position: absolute;
-    height: 30px;
+    height: 80px;
     width: 100%;
-    box-shadow: 5px 5px 5px black;
     text-align: right;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 5px black;
+    font-weight: 300;
+    padding: 25px;
 }
 
 .Menu a{
-    position: relative;
-    padding: 5px 10px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: white;
-    
+    color:black; 
 }
 
 .Menu a:hover{
-    padding: 5px 10px;
     text-decoration: underline;
-    color: cyan;
+    color:blue;
+}
+
+
+ .logo img{
+    position: absolute;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    margin-top: -25px;
+    margin-left: -1250px;
+}
+
+
+.Texto-Header{
+    position: absolute;
+    border: 1px solid springgreen;
+    box-shadow: 15px 15px 15px black;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.Texto-Header h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.Texto-Header h4{
+    position: absolute;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
