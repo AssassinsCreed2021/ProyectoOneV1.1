@@ -37,8 +37,8 @@ header{
 }
 
 .Menu a:hover{
-    text-decoration: underline;
-    color:blue;
+    text-decoration:  underline;
+    color:rgb(9, 255, 0);
 }
 
 
